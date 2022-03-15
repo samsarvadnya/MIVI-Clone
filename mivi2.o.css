@@ -110,7 +110,35 @@ footer{
     color: white;
 }
 
+#coupon{
+    height: 380px;
+    width: 660px;
+    z-index: 100;
+    background-color: #7e7b7bcc;
+    margin-top: 10%;
+    margin-left: 15%;
+    position: fixed;
+}
 
+.closecoupon{
+    position: absolute;
+    color: black;
+    
+    margin-left: -5%;
+    font-size: 25px;
+    height: 33px;
+    width: 33px;
+    
+    box-shadow: 10px -4px 10px #363535;
+}
+
+
+
+#piccoupon{
+    height: 100%;
+    width: 100%;
+   
+}
  
     
 

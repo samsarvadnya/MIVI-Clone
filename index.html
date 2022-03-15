@@ -23,8 +23,30 @@
     <link rel="stylesheet" href="mivi2.o.css">
     <title>mivi</title>
   </head>
+  
+ 
   <body>
+    
+   
+
+    
+    
+    
     <div class="container">
+      <!--coupon start-->
+      <div id="coupon">
+                
+        <img src="img/copen2.jpg" alt="Mental Health" class="img-responsive" id="piccoupon"/>
+        
+        
+        <button type="button" class="closecoupon" id="closecou" onClick="closeCoupon()">
+            &times;
+        </button>
+    </div>
+    <script>
+        window.onload="loadCoupon()"
+    </script>
+    <!--coupon end-->
         
         <header class="one">
             <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
@@ -71,6 +93,7 @@
                     <li>
                       <button class="nav-link btn btn-outline-success" onClick="changeMode()">Change Mode</button>
                   </li>
+                  
                     
                 </ul>
             </div>
@@ -79,11 +102,16 @@
         <br>
         <br>
         <br>
+        
     
         
     </div>
+    
+    
+  
     <!--slider-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -959,12 +987,12 @@
       <!-- Copyright -->
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.144); color: white;">
         © 2022 Copyright:
-        <a class="text-reset " href="https://samsarvadnya.github.io/myprofile/">SamarthSSarvadnya</a>
+        <a class="text-reset " href="https://samsarvadnya.github.io/myprofile/" target="_blank">SamarthSSarvadnya</a>
       </div>
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
-  
+     
     
     
     <!-- Optional JavaScript; choose one of the two! -->
@@ -981,5 +1009,7 @@
     <script src="mivi.js">
       
     </script>
+ 
+    
   </body>
 </html>

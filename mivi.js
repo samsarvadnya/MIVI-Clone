@@ -21,3 +21,20 @@ function changeMode(){
     mybody.classList.toggle('mydark')
 }
 
+
+
+function loadCoupon(){
+    document.getElementById('coupon').style.visibility = 'visible';
+}
+
+function closeCoupon(){
+    document.getElementById('coupon').style.visibility = 'hidden';
+}
+
+// function loadcoupon(){
+//     document.getElementById('coupon').style.display = 'block';
+// }
+
+// function closecoupon(){
+//     document.getElementById('coupon').style.display = 'none';
+// }
